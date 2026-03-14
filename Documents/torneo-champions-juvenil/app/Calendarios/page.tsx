@@ -18,7 +18,7 @@ export default function AdminPanel() {
   const [seccion, setSeccion] = useState("partidos"); 
 
   const intentarAcceso = () => {
-    if (claveInput === "COPOL2026*") setAutenticado(true);
+    if (claveInput === "Champions2026*") setAutenticado(true);
     else alert("Contraseña incorrecta");
   };
 

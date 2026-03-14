@@ -227,8 +227,8 @@ export default function Dashboard() {
         )}
 
         {[
-          { title: "GÉNERO", key: "genero", opts: ["Varones", "Damas"] },
-          { title: "DEPORTE", key: "deporte", opts: ["Futbol", "Volley", "Basket"] },
+          { title: "COMPLEJO", key: "complejo", opts: ["ATARAZANA", "FEDENADOR"] },
+          { title: "EDAD", key: "edad", opts: ["2006", "2007", "2008"] },
           { title: "CATEGORÍA", key: "categoria", opts: ["Inferior", "Intermedia", "Superior"] }
         ].map((s, idx) => step === idx + 1 && (
            <div key={s.key} style={selectionContainer}>
